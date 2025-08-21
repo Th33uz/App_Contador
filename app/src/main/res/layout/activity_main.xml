@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/NomeApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App contador"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/TextoContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="150sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/Decrementador"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="50sp"
+        app:layout_constraintTop_toBottomOf="@id/TextoContador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/Incrementador"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
+
+    <Button
+        android:id="@+id/Incrementador"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="50sp"
+        app:layout_constraintTop_toBottomOf="@id/TextoContador"
+        app:layout_constraintStart_toEndOf="@id/Decrementador"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
