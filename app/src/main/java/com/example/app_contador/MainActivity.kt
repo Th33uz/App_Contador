@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         var contador: Int = 0
-        var botaoDecrementador: Button = findViewById<Button>(R.id.Decrementador)
-        var botaoIncrementador: Button = findViewById<Button>(R.id.Incrementador)
-        var TextoContador: TextView = findViewById(R.id.TextoContador)
+        val botaoDecrementador: Button = findViewById<Button>(R.id.Decrementador)
+        val botaoIncrementador: Button = findViewById<Button>(R.id.Incrementador)
+        val TextoContador: TextView = findViewById(R.id.TextoContador)
 
         botaoIncrementador.setOnClickListener {
             contador++
