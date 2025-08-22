@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        var contador: Int = 0
+        var contador = 0
         val botaoDecrementador: Button = findViewById<Button>(R.id.Decrementador)
         val botaoIncrementador: Button = findViewById<Button>(R.id.Incrementador)
         val TextoContador: TextView = findViewById(R.id.TextoContador)
