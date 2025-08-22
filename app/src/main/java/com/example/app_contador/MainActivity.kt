@@ -27,9 +27,8 @@ class MainActivity : AppCompatActivity() {
 
         botaoIncrementador.setOnClickListener {
             contador++
-            TextoContador.text = contador.toString()
+            TextoContador.text = contador.toString() }
 
-        }
         botaoDecrementador.setOnClickListener{
             if(contador > 0) {
                 contador--
