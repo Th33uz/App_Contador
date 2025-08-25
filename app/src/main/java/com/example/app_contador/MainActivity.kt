@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             if(contador > 0) {
                 contador--
                 TextoContador.text = contador.toString()}
-            else {Snackbar.make(it, "Somente numeros positivos", Snackbar.LENGTH_SHORT).show()}
+            else {Snackbar.make(it, "Somente Números Positivos", Snackbar.LENGTH_SHORT).show()}
 
         }
 
