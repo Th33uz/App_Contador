@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         botaoDecrementador.setOnClickListener{
             if(contador > 0) {
                 contador--
-                TextoContador.text = contador.toString()}
-            else {Snackbar.make(it, "Somente Números Positivos", Snackbar.LENGTH_SHORT).show()}
+                TextoContador.text = contador.toString()
+            }  else {Snackbar.make(it, "Somente Números Positivos", Snackbar.LENGTH_SHORT).show()}
 
         }
 
