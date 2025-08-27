@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:text="-"
         android:textSize="50sp"
+        android:backgroundTint="#B10202"
         app:layout_constraintTop_toBottomOf="@id/TextoContador"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/Incrementador"
@@ -51,6 +52,7 @@
         android:layout_height="wrap_content"
         android:text="+"
         android:textSize="50sp"
+        android:backgroundTint="#088913"
         app:layout_constraintTop_toBottomOf="@id/TextoContador"
         app:layout_constraintStart_toEndOf="@id/Decrementador"
         app:layout_constraintEnd_toEndOf="parent"/>
