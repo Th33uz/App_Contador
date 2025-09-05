@@ -31,7 +31,7 @@ Biblioteca usada: com.google.android.material (para Snackbar)
 
 Clone o repositório do projeto.
 
-git clone https://github.com/seu-usuario/contador-kotlin.git
+git clone https://github.com/Th33uz/contador-kotlin.git
 
 
 Abra o projeto no Android Studio.
