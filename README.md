@@ -2,6 +2,8 @@
 
 Aplicativo Android desenvolvido em Kotlin com a finalidade de implementar um contador simples.
 
+---
+
 📖 Descrição
 
 O app permite ao usuário incrementar e decrementar valores em um contador de forma prática e intuitiva.
