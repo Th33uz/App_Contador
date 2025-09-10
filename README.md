@@ -16,6 +16,8 @@ Ele foi desenvolvido como exercício para praticar desenvolvimento Android com K
 
 📲 Interface simples e funcional.
 
+---
+
 🛠️ Tecnologias utilizadas
 
 Linguagem: Kotlin
