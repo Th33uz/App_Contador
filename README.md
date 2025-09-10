@@ -28,6 +28,8 @@ SDK: Android SDK
 
 Biblioteca usada: com.google.android.material (para Snackbar)
 
+---
+
 ▶️ Como executar
 
 Clone o repositório do projeto.
