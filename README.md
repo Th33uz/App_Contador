@@ -30,25 +30,6 @@ Biblioteca usada: com.google.android.material (para Snackbar)
 
 ---
 
-▶️ Como executar
-
-Clone o repositório do projeto.
-
-git clone https://github.com/Th33uz/contador-kotlin.git
-
-
-Abra o projeto no Android Studio.
-
-Conecte um dispositivo Android físico ou use um emulador.
-
-Clique em Run ▶️ para executar o app.
-
-📂 Estrutura do Projeto
-
-MainActivity.kt → lógica do contador.
-
-activity_main.xml → layout da interface.
-
 🖥️ Exemplo de uso
 
 Valor inicial: 0
@@ -60,6 +41,8 @@ Ao clicar em ➖ → 0
 Se tentar reduzir abaixo de 0, aparece:
 
 Não pode números negativos!
+
+---
 
 📌 Observações
 
