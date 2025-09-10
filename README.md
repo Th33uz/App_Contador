@@ -1,13 +1,10 @@
 📱 Projeto - Contador em Kotlin
 
 Aplicativo Android desenvolvido em Kotlin com a finalidade de implementar um contador simples.
-
----
-
-📖 Descrição
-
 O app permite ao usuário incrementar e decrementar valores em um contador de forma prática e intuitiva.
 Ele foi desenvolvido como exercício para praticar desenvolvimento Android com Kotlin, utilizando ConstraintLayout para a interface.
+
+---
 
 ⚙️ Funcionalidades
 
